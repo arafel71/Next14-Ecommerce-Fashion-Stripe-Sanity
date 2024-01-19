@@ -1,4 +1,4 @@
-
+"use client";
 
 import { Button } from "@/components/ui/button";
 import { urlFor } from "@/lib/sanity";
@@ -24,5 +24,5 @@ export default function CheckoutNow({currency, description, image, name, price, 
 
     return <Button onClick={() => {
         buyNow(product.price_id);
-    }}>Add To Cart</Button>;
+    }}>Checkout Now</Button>;
 }
